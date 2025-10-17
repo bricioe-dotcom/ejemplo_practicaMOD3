@@ -2,10 +2,40 @@
 INSERT INTO usuarios (nombre, correo, telefono, fecha_nacimiento) VALUES
 ('Juan Pérez', 'juan.perez@example.com', '777-111-2233', '1990-03-15'),
 ('María López', 'maria.lopez@example.com', '777-444-5566', '1992-08-21'),
-('Carlos Ruiz', 'carlos.ruiz@example.com', '777-777-8899', '1988-12-05');
+('Carlos Ruiz', 'carlos.ruiz@example.com', '777-777-8899', '1988-12-05'),
+('Sofía Castro', 'sofia.castro@example.com', '777-888-9900', '1995-02-18'),
+('David Ramírez', 'david.ramirez@example.com', '777-222-3344', '1983-09-09'),
+('Elena Ortega', 'elena.ortega@example.com', '777-555-6677', '1991-05-03'),
+('Miguel Torres', 'miguel.torres@example.com', '777-333-4455', '1993-12-14'),
+('Laura Sánchez', 'laura.sanchez@example.com', '777-999-0011', '1987-08-01'),
+('Pedro Morales', 'pedro.morales@example.com', '777-444-5566', '1986-04-17'),
+('Clara Hernández', 'clara.hernandez@example.com', '777-666-7788', '1994-06-30'),
+('Jorge Rojas', 'jorge.rojas@example.com', '777-123-4567', '1981-03-25'),
+('Valeria Peña', 'valeria.pena@example.com', '777-765-4321', '1992-01-09'),
+('Andrés Romero', 'andres.romero@example.com', '777-987-6543', '1989-10-12'),
+('Camila Paredes', 'camila.paredes@example.com', '777-543-2198', '1997-11-19'),
+('Ricardo Vargas', 'ricardo.vargas@example.com', '777-321-9876', '1984-07-23'),
+('Daniela Flores', 'daniela.flores@example.com', '777-654-3210', '1996-03-01'),
+('Héctor Serrano', 'hector.serrano@example.com', '777-789-0123', '1982-02-11'),
+('Patricia Vega', 'patricia.vega@example.com', '777-890-1234', '1990-09-05');
 
 -- Credenciales (para demo usamos "password_hash" en claro; en un sistema real usarías hash)
 INSERT INTO credenciales (id_usuario, username, password_hash) VALUES
 (1, 'juan.perez1', 'hash_juan_perez'),
 (2, 'maria.lopez2', 'hash_maria_lopez'),
-(3, 'carlos.ruiz3', 'hash_carlos_ruiz');
+(3, 'carlos.ruiz3', 'hash_carlos_ruiz'),
+(4, 'sofia.castro', 'hash_sofia_castro'),
+(5, 'david.ramirez', 'hash_david_ramirez'),
+(6, 'elena.ortega', 'hash_elena_ortega'),
+(7, 'miguel.torres', 'hash_miguel_torres'),
+(8, 'laura.sanchez', 'hash_laura_sanchez'),
+(9, 'pedro.morales', 'hash_pedro_morales'),
+(10, 'clara.hernandez', 'hash_clara_hernandez'),
+(11, 'jorge.rojas', 'hash_jorge_rojas'),
+(12, 'valeria.pena', 'hash_valeria_pena'),
+(13, 'andres.romero', 'hash_andres_romero'),
+(14, 'camila.paredes', 'hash_camila_paredes'),
+(15, 'ricardo.vargas', 'hash_ricardo_vargas'),
+(16, 'daniela.flores', 'hash_daniela_flores'),
+(17, 'hector.serrano', 'hash_hector_serrano'),
+(18, 'patricia.vega', 'hash_patricia_vega');
