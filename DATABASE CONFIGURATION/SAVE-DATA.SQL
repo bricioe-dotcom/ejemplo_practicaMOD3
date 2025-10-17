@@ -1,3 +1,6 @@
+-- Nota: En este archivo los "password_hash" se usan solo como demostración.
+-- En un sistema real deben almacenarse hashes seguros, no texto plano.
+
 -- Usuarios
 INSERT INTO usuarios (nombre, correo, telefono, fecha_nacimiento) VALUES
 ('Juan Pérez', 'juan.perez@example.com', '777-111-2233', '1990-03-15'),
